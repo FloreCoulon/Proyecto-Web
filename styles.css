@@ -1,25 +1,75 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f0f0f0;
+    background-color: #add8e6;
     color: #333;
-    text-align: left;
+    margin: 0;
+    padding: 20px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
 }
 
 h1 {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    color: #000;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #0066cc;
+    margin-bottom: 20px;
+    text-align: center; /* Centrer le texte du titre */
+    width: 100%; /* Assurer que le titre occupe toute la largeur disponible */
 }
 
-a {
-    color: #007bff;
+p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+ul li::before {
+    content: "- ";
+    color: #333;
+    font-weight: normal;
+}
+
+.links {
+    font-size: 0.9em;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 20px;
+    align-self: flex-start;
+}
+
+.links a {
+    font-family: 'Open Sans', sans-serif;
+    color: #ff9900;
     text-decoration: none;
+    font-weight: normal;
+    display: block;
+    margin-bottom: 5px;
 }
 
-a:hover {
+.links a:hover {
     text-decoration: underline;
 }
+
