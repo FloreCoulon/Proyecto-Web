@@ -19,9 +19,8 @@ h1 {
     text-decoration: underline;
     color: #0066cc;
     margin-bottom: 20px;
-    text-align: center; /* Centrer le texte du titre */
-    width: 100%; /* Assurer que le titre occupe toute la largeur disponible */
-}
+    text-align: center; 
+    width: 100%; 
 
 p {
     font-family: 'Roboto', sans-serif;
